@@ -1,7 +1,11 @@
-import { useState } from "react";
+interface SidebarProps {
+    isOpen: boolean;
+    setIsOpen: (open: boolean) => void;
+    activeTopic: string;
+    setActiveTopic: (topic: string) => void;
+}
 
-function Sidebar() {
-    const [isOpen, setIsOpen] = useState(true);
+function Sidebar({ isOpen, setIsOpen, activeTopic, setActiveTopic }: SidebarProps) {
 
     const topics = [
         { name: "Data Structure Classification", percentage: 3 },
@@ -83,16 +87,20 @@ function Sidebar() {
 
                         <nav className="flex flex-col gap-1">
                             {topics.map((topic, index) => (
-                                <a
+                                <button
                                     key={index}
-                                    href="#"
-                                    className="flex items-center justify-between rounded px-3 py-2 text-sm text-gray-400 transition-colors hover:bg-gray-900 hover:text-white"
+                                    onClick={() => setActiveTopic(topic.name)}
+                                    className={`flex w-full items-center justify-between rounded px-3 py-2 text-left text-sm transition-colors hover:bg-gray-900 hover:text-white ${
+                                        activeTopic === topic.name
+                                            ? "bg-gray-900 text-white"
+                                            : "text-gray-400"
+                                    }`}
                                 >
                                     <span>{topic.name}</span>
                                     <span className="text-xs text-gray-600">
                                         {topic.percentage}%
                                     </span>
-                                </a>
+                                </button>
                             ))}
                         </nav>
 
