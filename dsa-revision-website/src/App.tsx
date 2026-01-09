@@ -33,7 +33,12 @@ function App() {
                 activeTopic={activeTopic}
                 setActiveTopic={handleTopicChange}
             />
-            <MainContent sidebarOpen={sidebarOpen} activeTopic={activeTopic} showContent={showContent} />
+            <MainContent 
+                sidebarOpen={sidebarOpen} 
+                activeTopic={activeTopic} 
+                showContent={showContent} 
+                setActiveTopic={handleTopicChange}
+            />
         </div>
     );
 }

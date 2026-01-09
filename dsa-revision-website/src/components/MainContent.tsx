@@ -17,9 +17,31 @@ interface MainContentProps {
     sidebarOpen: boolean;
     activeTopic: string;
     showContent: boolean;
+    setActiveTopic: (topic: string) => void;
 }
 
-function MainContent({ sidebarOpen, activeTopic, showContent }: MainContentProps) {
+function MainContent({ sidebarOpen, activeTopic, showContent, setActiveTopic }: MainContentProps) {
+    const topics = [
+        { name: "Data Structure Classification", percentage: 3 },
+        { name: "Stack/Queue", percentage: 6 },
+        { name: "BigO", percentage: 7 },
+        { name: "Search/Sort", percentage: 8 },
+        { name: "Recursion", percentage: 10 },
+        { name: "List", percentage: 7 },
+        { name: "Binary (Search) Tree", percentage: 8 },
+        { name: "AVL Tree", percentage: 6 },
+        { name: "Splay Tree", percentage: 6 },
+        { name: "B/B+ Tree", percentage: 8 },
+        { name: "Hashing", percentage: 8 },
+        { name: "Heap", percentage: 9 },
+        { name: "Huffman Coding", percentage: 6 },
+        { name: "Graph", percentage: 8 },
+    ];
+
+    const currentIndex = topics.findIndex(t => t.name === activeTopic);
+    const previousTopic = currentIndex > 0 ? topics[currentIndex - 1] : null;
+    const nextTopic = currentIndex < topics.length - 1 ? topics[currentIndex + 1] : null;
+
     const renderPage = () => {
         switch (activeTopic) {
             case "Data Structure Classification":
@@ -88,15 +110,65 @@ function MainContent({ sidebarOpen, activeTopic, showContent }: MainContentProps
             ) : (
             <div className="w-full max-w-4xl space-y-8">
                 <header className="border-b border-gray-800 pb-6">
-                    <h1 className="text-4xl font-bold text-white">
+                    <h1 className="text-3xl md:text-4xl font-bold text-white">
                         Data Structures & Algorithms
                     </h1>
-                    <p className="mt-2 text-lg text-gray-400">
+                    <p className="mt-3 text-base md:text-lg text-gray-400">
                         The complete revision guide for the DSA exam.
                     </p>
                 </header>
 
                 {renderPage()}
+
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-6 mb-6 border-t border-gray-800">
+                    {previousTopic ? (
+                        <button
+                            onClick={() => setActiveTopic(previousTopic.name)}
+                            className="flex items-center gap-3 px-4 py-3 rounded-lg border border-gray-700 bg-gray-800/50 hover:bg-gray-800 hover:border-gray-600 text-gray-300 hover:text-white transition-all group flex-1 sm:flex-initial sm:max-w-[45%]"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-5 w-5 transition-transform group-hover:-translate-x-0.5 flex-shrink-0 text-gray-500 group-hover:text-gray-300"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                            </svg>
+                            <div className="text-left min-w-0">
+                                <p className="text-xs text-gray-500 font-medium mb-0.5">Previous</p>
+                                <p className="font-semibold text-sm truncate">{previousTopic.name}</p>
+                                <p className="text-xs text-cyan-400 mt-0.5">{previousTopic.percentage}% of Exam</p>
+                            </div>
+                        </button>
+                    ) : (
+                        <div className="hidden sm:block"></div>
+                    )}
+
+                    {nextTopic ? (
+                        <button
+                            onClick={() => setActiveTopic(nextTopic.name)}
+                            className="flex items-center gap-3 px-4 py-3 rounded-lg border border-gray-700 bg-gray-800/50 hover:bg-gray-800 hover:border-gray-600 text-gray-300 hover:text-white transition-all group flex-1 sm:flex-initial sm:max-w-[45%]"
+                        >
+                            <div className="text-left min-w-0 flex-1">
+                                <p className="text-xs text-gray-500 font-medium mb-0.5">Next</p>
+                                <p className="font-semibold text-sm truncate">{nextTopic.name}</p>
+                                <p className="text-xs text-cyan-400 mt-0.5">{nextTopic.percentage}% of Exam</p>
+                            </div>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-5 w-5 transition-transform group-hover:translate-x-0.5 flex-shrink-0 text-gray-500 group-hover:text-gray-300"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    ) : (
+                        <div className="hidden sm:block"></div>
+                    )}
+                </div>
 
                 <footer className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
                     <p>
