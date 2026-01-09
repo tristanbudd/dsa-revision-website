@@ -1,24 +1,25 @@
-import DataStructureClassification from "./pages/DataStructureClassification";
-import StackQueue from "./pages/StackQueue";
-import BigO from "./pages/BigO";
-import SearchSort from "./pages/SearchSort";
-import Recursion from "./pages/Recursion";
-import List from "./pages/List";
-import BinaryTree from "./pages/BinaryTree";
-import AVLTree from "./pages/AVLTree";
-import SplayTree from "./pages/SplayTree";
-import BBPlusTree from "./pages/BBPlusTree";
-import Hashing from "./pages/Hashing";
-import Heap from "./pages/Heap";
-import HuffmanCoding from "./pages/HuffmanCoding";
-import Graph from "./pages/Graph";
+import DataStructureClassification from "../pages/DataStructureClassification";
+import StackQueue from "../pages/StackQueue";
+import BigO from "../pages/BigO";
+import SearchSort from "../pages/SearchSort";
+import Recursion from "../pages/Recursion";
+import List from "../pages/List";
+import BinaryTree from "../pages/BinaryTree";
+import AVLTree from "../pages/AVLTree";
+import SplayTree from "../pages/SplayTree";
+import BBPlusTree from "../pages/BBPlusTree";
+import Hashing from "../pages/Hashing";
+import Heap from "../pages/Heap";
+import HuffmanCoding from "../pages/HuffmanCoding";
+import Graph from "../pages/Graph";
 
 interface MainContentProps {
     sidebarOpen: boolean;
     activeTopic: string;
+    showContent: boolean;
 }
 
-function MainContent({ sidebarOpen, activeTopic }: MainContentProps) {
+function MainContent({ sidebarOpen, activeTopic, showContent }: MainContentProps) {
     const renderPage = () => {
         switch (activeTopic) {
             case "Data Structure Classification":
@@ -61,13 +62,37 @@ function MainContent({ sidebarOpen, activeTopic }: MainContentProps) {
                 marginLeft: sidebarOpen ? "320px" : "56px",
             }}
         >
+            {!showContent ? (
+                <div className="flex min-h-screen items-center justify-center">
+                    <div className="text-center space-y-4">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-16 w-16 mx-auto text-gray-600"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M4 6h16M4 12h16M4 18h16"
+                            />
+                        </svg>
+                        <p className="text-xl text-gray-400">Content minimized</p>
+                        <p className="text-sm text-gray-500">
+                            Select a topic from the sidebar or collapse it to view content
+                        </p>
+                    </div>
+                </div>
+            ) : (
             <div className="w-full max-w-4xl space-y-8">
                 <header className="border-b border-gray-800 pb-6">
                     <h1 className="text-4xl font-bold text-white">
                         Data Structures & Algorithms
                     </h1>
                     <p className="mt-2 text-lg text-gray-400">
-                        Complete revision guide for DSA exam
+                        The complete revision guide for the DSA exam.
                     </p>
                 </header>
 
@@ -90,6 +115,7 @@ function MainContent({ sidebarOpen, activeTopic }: MainContentProps) {
                     </p>
                 </footer>
             </div>
+            )}
         </div>
     );
 }
