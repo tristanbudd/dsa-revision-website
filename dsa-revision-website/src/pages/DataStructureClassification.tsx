@@ -37,7 +37,7 @@ function DataStructureClassification() {
                         </div>
 
                         <div className="rounded-lg border border-orange-700 bg-orange-900/20 p-5">
-                            <h4 className="text-xl font-bold text-orange-700 mb-3">Trade-off</h4>
+                            <h4 className="text-xl font-bold text-orange-400 mb-3">Trade-off</h4>
                             <p className="text-sm text-gray-300 leading-relaxed">
                                 No data structure is perfect for all programs. Some are better suited to specific applications, though they come with trade-offs in time, space, and complexity.
                             </p>
@@ -493,19 +493,19 @@ function DataStructureClassification() {
                                 <h4 className="text-lg font-semibold text-green-300 mb-3">Classification Mastery</h4>
                                 <div className="grid md:grid-cols-2 gap-4">
                                     <div className="bg-gray-800/50 rounded p-4">
-                                        <p className="text-sm font-semibold text-green-400 mb-2">Linear (1→1):</p>
+                                        <p className="font-semibold text-green-400 mb-2">Linear (1→1):</p>
                                         <p className="text-sm text-gray-300">Each element has one predecessor and one successor. Sequential access. Best for ordered data processing.</p>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-4">
-                                        <p className="text-sm font-semibold text-green-400 mb-2">Hierarchical (1→Many):</p>
+                                        <p className="font-semibold text-green-400 mb-2">Hierarchical (1→Many):</p>
                                         <p className="text-sm text-gray-300">Each element has one parent but multiple children. Ideal for representing hierarchies and relationships.</p>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-4">
-                                        <p className="text-sm font-semibold text-purple-400 mb-2">Graph (Many→Many):</p>
+                                        <p className="font-semibold text-purple-400 mb-2">Graph (Many→Many):</p>
                                         <p className="text-sm text-gray-300">Complex relationships with multiple connections. Essential for networks, dependencies, and pathfinding.</p>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-4">
-                                        <p className="text-sm font-semibold text-orange-400 mb-2">Set (No relationships):</p>
+                                        <p className="font-semibold text-orange-400 mb-2">Set (No relationships):</p>
                                         <p className="text-sm text-gray-300">Unordered unique elements. Focus on membership testing and mathematical set operations.</p>
                                     </div>
                                 </div>
@@ -546,19 +546,19 @@ function DataStructureClassification() {
                                 <h4 className="text-lg font-semibold text-yellow-300 mb-3">Algorithm Approaches Quick Reference</h4>
                                 <div className="grid md:grid-cols-2 gap-3">
                                     <div className="flex flex-col bg-gray-800/50 rounded p-3">
-                                        <span className="text-cyan-400 font-bold text-sm">Brute Force:</span>
+                                        <span className="text-cyan-400 font-bold">Brute Force:</span>
                                         <span className="text-sm text-gray-300">Try everything, simple but slow. Use when problem space is small.</span>
                                     </div>
                                     <div className="flex flex-col bg-gray-800/50 rounded p-3">
-                                        <span className="text-green-400 font-bold text-sm">Divide & Conquer:</span>
+                                        <span className="text-green-400 font-bold">Divide & Conquer:</span>
                                         <span className="text-sm text-gray-300">Break down, solve, combine. Reduces complexity logarithmically.</span>
                                     </div>
                                     <div className="flex flex-col bg-gray-800/50 rounded p-3">
-                                        <span className="text-purple-400 font-bold text-sm">Backtracking:</span>
+                                        <span className="text-purple-400 font-bold">Backtracking:</span>
                                         <span className="text-sm text-gray-300">Try solutions, backtrack on failure. Good for constraint problems.</span>
                                     </div>
                                     <div className="flex flex-col bg-gray-800/50 rounded p-3">
-                                        <span className="text-orange-400 font-bold text-sm">Greedy:</span>
+                                        <span className="text-orange-400 font-bold">Greedy:</span>
                                         <span className="text-sm text-gray-300">Make local optimal choices. Fast but doesn't guarantee global optimum.</span>
                                     </div>
                                 </div>
