@@ -106,7 +106,7 @@ function Sidebar({ isOpen, setIsOpen, activeTopic, setActiveTopic }: SidebarProp
 
                         <div className="mt-auto border-t border-gray-800 pt-4">
                             <p className="text-xs text-gray-600">
-                                Total: 100% | 25 items
+                                This is not an official University of Portsmouth publication and is created for educational purposes only.
                             </p>
                         </div>
                     </div>
