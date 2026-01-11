@@ -263,7 +263,7 @@ print(result)  # Output: -1 (not found)`,
                     </p>
 
                     <div className="space-y-6 mb-8">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Array Operations Implementation</h4>
                             <CodeBox examples={arrayOperationsExample} title="Unsorted vs Sorted Array Implementations" />
                             <div className="mt-3 p-3 bg-gray-800/50 rounded">
@@ -481,7 +481,7 @@ print(result)  # Output: -1 (not found)`,
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-6">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-2xl font-bold text-purple-400 mb-4">3. Insertion Sort</h4>
                             
                             <p className="text-gray-300 mb-4 leading-relaxed">

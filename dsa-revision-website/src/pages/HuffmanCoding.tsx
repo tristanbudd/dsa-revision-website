@@ -453,7 +453,7 @@ def demonstrate_text_compression():
                     </p>
 
                     <div className="space-y-6 mb-6">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Variable-Length Implementation</h4>
                             <CodeBox examples={variableLengthExample} title="Variable-Length Coding Example" />
                             <div className="mt-3 p-3 bg-gray-800/50 rounded">
@@ -523,7 +523,7 @@ def demonstrate_text_compression():
                     </p>
 
                     <div className="space-y-6">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Step-by-Step Tree Construction</h4>
                             <div className="space-y-4">
                                 <div className="bg-gray-800/50 rounded p-4">
@@ -738,7 +738,7 @@ E(9) D(12)`}
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Database and Storage Systems</h4>
                             <p className="text-gray-300 mb-3">
                                 Database systems use Huffman-based compression for reducing storage requirements and 

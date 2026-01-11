@@ -533,19 +533,43 @@ solver.display_solution(path)`,
                                 <div className="bg-gray-800/50 rounded p-3">
                                     <h5 className="font-bold text-blue-200 mb-2">Advantages:</h5>
                                     <ul className="text-xs text-gray-300 space-y-1">
-                                        <li>• O(1) time to check if edge exists between two vertices.</li>
-                                        <li>• O(1) time to insert or delete an edge.</li>
-                                        <li>• Simple implementation for dense graphs.</li>
-                                        <li>• Easy to work with for mathematical operations.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>O(1) time to check if edge exists between two vertices.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>O(1) time to insert or delete an edge.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Simple implementation for dense graphs.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Easy to work with for mathematical operations.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="bg-gray-800/50 rounded p-3">
                                     <h5 className="font-bold text-blue-200 mb-2">Disadvantages:</h5>
                                     <ul className="text-xs text-gray-300 space-y-1">
-                                        <li>• O(V²) space complexity regardless of actual edge count.</li>
-                                        <li>• Inefficient for sparse graphs (wastes memory).</li>
-                                        <li>• Fixed size - number of vertices must be known in advance.</li>
-                                        <li>• Cannot store duplicate edges between same vertices.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>O(V²) space complexity regardless of actual edge count.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Inefficient for sparse graphs (wastes memory).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Fixed size - number of vertices must be known in advance.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Cannot store duplicate edges between same vertices.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -558,19 +582,43 @@ solver.display_solution(path)`,
                                 <div className="bg-gray-800/50 rounded p-3">
                                     <h5 className="font-bold text-green-200 mb-2">Advantages:</h5>
                                     <ul className="text-xs text-gray-300 space-y-1">
-                                        <li>• Space-efficient for sparse graphs: O(V + E) space complexity.</li>
-                                        <li>• Dynamic size - easy to add/remove vertices.</li>
-                                        <li>• Can store multiple edges between same vertices.</li>
-                                        <li>• Efficient for graph traversal operations.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Space-efficient for sparse graphs: O(V + E) space complexity.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Dynamic size - easy to add/remove vertices.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Can store multiple edges between same vertices.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Efficient for graph traversal operations.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="bg-gray-800/50 rounded p-3">
                                     <h5 className="font-bold text-green-200 mb-2">Disadvantages:</h5>
                                     <ul className="text-xs text-gray-300 space-y-1">
-                                        <li>• O(V) time to check if specific edge exists (must search list).</li>
-                                        <li>• O(E) time to delete an edge (must traverse list).</li>
-                                        <li>• More complex implementation than matrix.</li>
-                                        <li>• Less cache-friendly for dense graphs.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>O(V) time to check if specific edge exists (must search list).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>O(E) time to delete an edge (must traverse list).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>More complex implementation than matrix.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Less cache-friendly for dense graphs.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -664,7 +712,7 @@ solver.display_solution(path)`,
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">DFS Characteristics</h4>
                             <div className="grid md:grid-cols-2 gap-4 text-gray-300">
                                 <div className="space-y-2">
@@ -804,7 +852,7 @@ solver.display_solution(path)`,
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Network Analysis and Connectivity</h4>
                             <p className="text-gray-300 mb-3">
                                 Graphs model computer networks, communication systems, and infrastructure networks. 

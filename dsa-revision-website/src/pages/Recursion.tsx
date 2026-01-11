@@ -362,7 +362,7 @@ print(palindrome("abcdba"))   # Output: False`,
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-6">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-xl font-bold text-purple-400 mb-4">Palindrome Checker</h4>
                             <p className="text-gray-300 mb-4">
                                 A palindrome reads the same forwards and backwards (e.g., "hannah", "12321"). 

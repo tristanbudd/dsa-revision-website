@@ -24,7 +24,7 @@ function DataStructureClassification() {
                 </p>
 
                 <div className="mt-8">
-                    <h3 className="text-2xl font-semibold text-white mb-4">
+                    <h3 className="text-2xl font-semibold text-white mb-6">
                         Three Core Principles
                     </h3>
                     
@@ -118,19 +118,43 @@ function DataStructureClassification() {
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-blue-300 mb-2">Characteristics:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• Sequential access to elements.</li>
-                                        <li>• Single level structure.</li>
-                                        <li>• Elements have defined order.</li>
-                                        <li>• Traversal is straightforward.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Sequential access to elements.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Single level structure.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Elements have defined order.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Traversal is straightforward.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-blue-300 mb-2">Common Examples:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• <strong>Array:</strong> Fixed-size, contiguous memory.</li>
-                                        <li>• <strong>Stack:</strong> LIFO (Last In, First Out).</li>
-                                        <li>• <strong>Queue:</strong> FIFO (First In, First Out).</li>
-                                        <li>• <strong>Linked List:</strong> Dynamic size, pointer-based.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Array:</strong> Fixed-size, contiguous memory.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Stack:</strong> LIFO (Last In, First Out).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Queue:</strong> FIFO (First In, First Out).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Linked List:</strong> Dynamic size, pointer-based.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -181,25 +205,49 @@ function DataStructureClassification() {
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-green-300 mb-2">Characteristics:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• Organized in levels/hierarchy.</li>
-                                        <li>• Each child has only one parent.</li>
-                                        <li>• Root node has no parent.</li>
-                                        <li>• Leaf nodes have no children.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Organized in levels/hierarchy.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Each child has only one parent.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Root node has no parent.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Leaf nodes have no children.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-green-300 mb-2">Common Examples:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• <strong>Binary Tree:</strong> Max 2 children per node.</li>
-                                        <li>• <strong>AVL Tree:</strong> Self-balancing BST.</li>
-                                        <li>• <strong>B/B+ Tree:</strong> Multi-way search trees.</li>
-                                        <li>• <strong>Heap:</strong> Complete binary tree for priority.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Binary Tree:</strong> Max 2 children per node.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>AVL Tree:</strong> Self-balancing BST.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>B/B+ Tree:</strong> Multi-way search trees.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Heap:</strong> Complete binary tree for priority.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-6">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-2xl font-bold text-purple-400 mb-4">3. Network or Graph Structure</h4>
                             
                             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -234,19 +282,43 @@ function DataStructureClassification() {
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-purple-300 mb-2">Characteristics:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• Non-linear, complex relationships.</li>
-                                        <li>• Can contain cycles.</li>
-                                        <li>• Edges can be directed/undirected.</li>
-                                        <li>• May have weighted connections.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Non-linear, complex relationships.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Can contain cycles.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Edges can be directed/undirected.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>May have weighted connections.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-purple-300 mb-2">Common Examples:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• <strong>Social Networks:</strong> Friend connections.</li>
-                                        <li>• <strong>Road Maps:</strong> Cities and routes.</li>
-                                        <li>• <strong>Computer Networks:</strong> Device connections.</li>
-                                        <li>• <strong>Dependency Graphs:</strong> Task relationships.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Social Networks:</strong> Friend connections.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Road Maps:</strong> Cities and routes.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Computer Networks:</strong> Device connections.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Dependency Graphs:</strong> Task relationships.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -281,19 +353,43 @@ function DataStructureClassification() {
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-orange-300 mb-2">Characteristics:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• No defined order.</li>
-                                        <li>• Only unique elements (no duplicates).</li>
-                                        <li>• No predecessor/successor concept.</li>
-                                        <li>• Fast membership testing.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>No defined order.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Only unique elements (no duplicates).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>No predecessor/successor concept.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Fast membership testing.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="bg-gray-800/50 rounded p-4">
                                     <h5 className="font-semibold text-orange-300 mb-2">Common Operations:</h5>
                                     <ul className="text-sm text-gray-300 space-y-1">
-                                        <li>• <strong>Union:</strong> Combine two sets.</li>
-                                        <li>• <strong>Intersection:</strong> Common elements.</li>
-                                        <li>• <strong>Difference:</strong> Elements in A but not B.</li>
-                                        <li>• <strong>Membership:</strong> Check if element exists.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Union:</strong> Combine two sets.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Intersection:</strong> Common elements.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Difference:</strong> Elements in A but not B.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><strong>Membership:</strong> Check if element exists.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -436,9 +532,18 @@ function DataStructureClassification() {
                             <div className="mb-3">
                                 <p className="font-bold text-gray-400 mb-2">Operations:</p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• <code className="bg-gray-700 px-1 rounded">push()</code> - Add element to top.</li>
-                                    <li>• <code className="bg-gray-700 px-1 rounded">pop()</code> - Remove element from top.</li>
-                                    <li>• <code className="bg-gray-700 px-1 rounded">peek()</code> - View top element.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><code className="bg-gray-700 px-1 rounded">push()</code> - Add element to top.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><code className="bg-gray-700 px-1 rounded">pop()</code> - Remove element from top.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><code className="bg-gray-700 px-1 rounded">peek()</code> - View top element.</span>
+                                        </li>
                                 </ul>
                             </div>
                             <div className="bg-gray-900/50 rounded p-2 text-xs text-gray-400">
@@ -454,9 +559,18 @@ function DataStructureClassification() {
                             <div className="mb-3">
                                 <p className="font-bold text-gray-400 mb-2">Operations:</p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• <code className="bg-gray-700 px-1 rounded">enqueue()</code> - Add element to rear.</li>
-                                    <li>• <code className="bg-gray-700 px-1 rounded">dequeue()</code> - Remove element from front.</li>
-                                    <li>• <code className="bg-gray-700 px-1 rounded">peek()</code> - View front element.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><code className="bg-gray-700 px-1 rounded">enqueue()</code> - Add element to rear.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><code className="bg-gray-700 px-1 rounded">dequeue()</code> - Remove element from front.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span><code className="bg-gray-700 px-1 rounded">peek()</code> - View front element.</span>
+                                        </li>
                                 </ul>
                             </div>
                             <div className="bg-gray-900/50 rounded p-2 text-xs text-gray-400">

@@ -435,7 +435,7 @@ for task in schedule:
                     </h3>
 
                     <div className="space-y-6">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Index Relationships</h4>
                             <p className="text-gray-300 mb-3">
                                 Complete binary trees can be efficiently stored in arrays using level-order numbering starting from index 0 or 1.
@@ -611,7 +611,7 @@ Value: 66  45  38  20  35  32  12   3  17  10
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Event Simulation Systems</h4>
                             <p className="text-gray-300 mb-3">
                                 Discrete event simulators use priority queues to manage events scheduled at different times, 

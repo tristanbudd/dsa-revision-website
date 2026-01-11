@@ -572,7 +572,7 @@ def search_skiplist(head, item, highest_level):
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-6">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-2xl font-bold text-purple-400 mb-4">3. Circular Linked Lists</h4>
                             
                             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -625,7 +625,7 @@ def search_skiplist(head, item, highest_level):
                                 </div>
                             </div>
 
-                            <div className="mt-4 bg-purple-900/30 border border-purple-600 rounded p-3">
+                            <div className="mt-4 bg-purple-900/30 border border-purple-700 rounded p-3">
                                 <p className="text-sm text-gray-300">
                                     <strong className="text-purple-300">Note:</strong> Circular lists require careful loop termination conditions 
                                     to avoid infinite loops during traversal operations.

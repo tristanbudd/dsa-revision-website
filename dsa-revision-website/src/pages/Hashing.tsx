@@ -413,7 +413,7 @@ class HashTableDoubleHashing:
                     </p>
 
                     <div className="space-y-6">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Chaining (Separate Chaining)</h4>
                             <CodeBox examples={chainingExample} title="Hash Table with Chaining" />
                             <div className="mt-3 p-3 bg-gray-800/50 rounded">
@@ -583,25 +583,52 @@ class HashTableDoubleHashing:
                                 <div>
                                     <strong className="text-green-400">Best Case (No Collisions):</strong>
                                     <ul className="mt-2 space-y-1 ml-4">
-                                        <li>• All operations: O(1).</li>
-                                        <li>• Perfect hash function distributes keys uniformly.</li>
-                                        <li>• Each key maps to unique table index.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>All operations: O(1).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Perfect hash function distributes keys uniformly.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Each key maps to unique table index.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <strong className="text-red-400">Worst Case (All Collisions):</strong>
                                     <ul className="mt-2 space-y-1 ml-4">
-                                        <li>• All keys hash to same index.</li>
-                                        <li>• Chaining: O(n) - linear search in one chain.</li>
-                                        <li>• Open Addressing: O(n) - probe entire table.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>All keys hash to same index.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Chaining: O(n) - linear search in one chain.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Open Addressing: O(n) - probe entire table.</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <strong className="text-blue-400">Average Case (Good Hash Function):</strong>
                                     <ul className="mt-2 space-y-1 ml-4">
-                                        <li>• Search/Insert/Delete: O(1 + α).</li>
-                                        <li>• Performance depends on load factor.</li>
-                                        <li>• Proper table sizing maintains good performance.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Search/Insert/Delete: O(1 + α).</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Performance depends on load factor.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Proper table sizing maintains good performance.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -699,7 +726,7 @@ class HashTableDoubleHashing:
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Caching Systems</h4>
                             <p className="text-gray-300 mb-3">
                                 Hash tables enable <strong>fast cache lookups</strong> in web applications, databases, and operating systems. 

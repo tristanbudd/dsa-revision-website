@@ -338,9 +338,18 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-green-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Accessing an array element by index: <code className="bg-gray-700 px-2 py-0.5 rounded">arr[5]</code>.</li>
-                                    <li>• Simple arithmetic: <code className="bg-gray-700 px-2 py-0.5 rounded">sum = N * (N + 1) / 2</code>.</li>
-                                    <li>• If N=1, takes 1 second → If N=100, also takes 1 second.</li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Accessing an array element by index: <code className="bg-gray-700 px-2 py-0.5 rounded">arr[5]</code>.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>Simple arithmetic: <code className="bg-gray-700 px-2 py-0.5 rounded">sum = N * (N + 1) / 2</code>.</span>
+                                        </li>
+                                        <li className="flex gap-2">
+                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span>If N=1, takes 1 second → If N=100, also takes 1 second.</span>
+                                        </li>
                                 </ul>
                             </div>
                         </div>
@@ -357,10 +366,22 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-cyan-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Binary search on a sorted array.</li>
-                                    <li>• Finding an element in a balanced binary search tree.</li>
-                                    <li>• When N=1000, log₂N ≈ 10 → When N=1,000,000, log₂N ≈ 20.</li>
-                                    <li>• Doubling N only adds a constant to log N.</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Binary search on a sorted array.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Finding an element in a balanced binary search tree.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>When N=1000, log₂N ≈ 10 → When N=1,000,000, log₂N ≈ 20.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Doubling N only adds a constant to log N.</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -376,15 +397,27 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-blue-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Traversing an array or list once.</li>
-                                    <li>• Linear search through unsorted data.</li>
-                                    <li>• Simple for-loop iterating N times.</li>
-                                    <li>• If N=10 takes 10 seconds → If N=100 takes 100 seconds.</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Traversing an array or list once.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Linear search through unsorted data.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Simple for-loop iterating N times.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>If N=10 takes 10 seconds → If N=100 takes 100 seconds.</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <div className="flex items-center gap-3 mb-3">
                                 <h4 className="text-xl font-bold text-purple-300">O(N log N) - Linearithmic Time</h4>
                                 <span className="px-2 py-1 bg-purple-900/50 border border-purple-700 rounded text-xs text-purple-400 font-semibold">FAIR</span>
@@ -395,9 +428,18 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-purple-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Efficient sorting algorithms (Merge Sort, Quick Sort, Heap Sort).</li>
-                                    <li>• When N=1,000,000, N log₂N ≈ 20,000,000.</li>
-                                    <li>• When N doubles, runtime more than doubles (but not by much).</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Efficient sorting algorithms (Merge Sort, Quick Sort, Heap Sort).</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>When N=1,000,000, N log₂N ≈ 20,000,000.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>When N doubles, runtime more than doubles (but not by much).</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -413,10 +455,22 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-yellow-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Nested loops iterating N times each.</li>
-                                    <li>• Simple sorting algorithms (Bubble Sort, Selection Sort, Insertion Sort).</li>
-                                    <li>• If N=10 takes 100 seconds → If N=100 takes 10,000 seconds.</li>
-                                    <li>• When N doubles, runtime increases four-fold.</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Nested loops iterating N times each.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Simple sorting algorithms (Bubble Sort, Selection Sort, Insertion Sort).</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>If N=10 takes 100 seconds → If N=100 takes 10,000 seconds.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>When N doubles, runtime increases four-fold.</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -432,9 +486,18 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-orange-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Three nested loops each iterating N times.</li>
-                                    <li>• When N=100, runtime is 1,000,000 units.</li>
-                                    <li>• When N doubles, runtime increases eight-fold.</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Three nested loops each iterating N times.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>When N=100, runtime is 1,000,000 units.</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>When N doubles, runtime increases eight-fold.</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -450,10 +513,22 @@ while i <= n:
                             <div className="bg-gray-800/50 rounded p-3">
                                 <p className="text-sm text-gray-300 mb-2"><strong className="text-red-400">Example:</strong></p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Brute-force solutions to combinatorial problems</li>
-                                    <li>• Recursive Fibonacci without memoization</li>
-                                    <li>• If N=10 takes 1,024 seconds → If N=20 takes 1,048,576 seconds</li>
-                                    <li>• Impractical for even moderate input sizes</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Brute-force solutions to combinatorial problems</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Recursive Fibonacci without memoization</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>If N=10 takes 1,024 seconds → If N=20 takes 1,048,576 seconds</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Impractical for even moderate input sizes</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -513,7 +588,7 @@ while i <= n:
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-6">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-xl font-bold text-purple-400 mb-4">Nested Loops</h4>
                             <p className="text-gray-300 mb-4">
                                 The complexity of nested loops is determined by multiplying the complexities of each loop.
@@ -524,9 +599,18 @@ while i <= n:
                                     <strong className="text-purple-400">Key Points:</strong>
                                 </p>
                                 <ul className="text-sm text-gray-300 space-y-1">
-                                    <li>• Independent nested loops: Multiply their complexities (O(n) × O(n) = O(n²))</li>
-                                    <li>• Dependent inner loop: Average iterations matter (still typically O(n²))</li>
-                                    <li>• Mixed loop types: O(n) × O(log n) = O(n log n)</li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Independent nested loops: Multiply their complexities (O(n) × O(n) = O(n²))</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Dependent inner loop: Average iterations matter (still typically O(n²))</span>
+                                    </li>
+                                    <li className="flex gap-2">
+                                        <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                        <span>Mixed loop types: O(n) × O(log n) = O(n log n)</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -713,18 +797,39 @@ while i <= n:
                                     <div className="bg-gray-800/50 rounded p-4">
                                         <h5 className="font-bold text-green-400 mb-2">Efficient Complexities:</h5>
                                         <ul className="text-sm text-gray-300 space-y-1">
-                                            <li>• <strong>O(1)</strong> - Constant, best possible</li>
-                                            <li>• <strong>O(log N)</strong> - Logarithmic, excellent</li>
-                                            <li>• <strong>O(N)</strong> - Linear, good for most cases</li>
-                                            <li>• <strong>O(N log N)</strong> - Linearithmic, efficient sorting</li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(1)</strong> - Constant, best possible</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(log N)</strong> - Logarithmic, excellent</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(N)</strong> - Linear, good for most cases</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(N log N)</strong> - Linearithmic, efficient sorting</span>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-4">
                                         <h5 className="font-bold text-red-400 mb-2">Inefficient Complexities:</h5>
                                         <ul className="text-sm text-gray-300 space-y-1">
-                                            <li>• <strong>O(N²)</strong> - Quadratic, avoid when possible</li>
-                                            <li>• <strong>O(N³)</strong> - Cubic, only for small N</li>
-                                            <li>• <strong>O(2^N)</strong> - Exponential, impractical</li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(N²)</strong> - Quadratic, avoid when possible</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(N³)</strong> - Cubic, only for small N</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span><strong>O(2^N)</strong> - Exponential, impractical</span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -766,33 +871,69 @@ while i <= n:
                                     <div className="bg-gray-800/50 rounded p-3">
                                         <p className="font-bold text-yellow-400 mb-1">Loop Patterns:</p>
                                         <ul className="text-sm text-gray-300 space-y-0.5">
-                                            <li>• i += k → O(N)</li>
-                                            <li>• i *= k → O(log N)</li>
-                                            <li>• nested independent → O(N²)</li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>i += k → O(N)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>i *= k → O(log N)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>nested independent → O(N²)</span>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-3">
                                         <p className="font-bold text-yellow-400 mb-1">Data Structures:</p>
                                         <ul className="text-sm text-gray-300 space-y-0.5">
-                                            <li>• Array access → O(1)</li>
-                                            <li>• Binary search → O(log N)</li>
-                                            <li>• Hash table → O(1) avg</li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>Array access → O(1)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>Binary search → O(log N)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>Hash table → O(1) avg</span>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-3">
                                         <p className="font-bold text-yellow-400 mb-1">Simplification:</p>
                                         <ul className="text-sm text-gray-300 space-y-0.5">
-                                            <li>• O(5N) → O(N)</li>
-                                            <li>• O(N² + N) → O(N²)</li>
-                                            <li>• O(1000) → O(1)</li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>O(5N) → O(N)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>O(N² + N) → O(N²)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>O(1000) → O(1)</span>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-3">
                                         <p className="font-bold text-yellow-400 mb-1">Algorithms:</p>
                                         <ul className="text-sm text-gray-300 space-y-0.5">
-                                            <li>• Linear search → O(N)</li>
-                                            <li>• Merge/Quick sort → O(N log N)</li>
-                                            <li>• Bubble sort → O(N²)</li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>Linear search → O(N)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>Merge/Quick sort → O(N log N)</span>
+                                            </li>
+                                            <li className="flex gap-2">
+                                                <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                                <span>Bubble sort → O(N²)</span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

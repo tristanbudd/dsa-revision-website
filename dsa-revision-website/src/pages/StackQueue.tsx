@@ -175,7 +175,7 @@ print(brackets_validation("[a{b]c}"))  # False`,
                 </p>
 
                 <div className="mt-8">
-                    <h3 className="text-2xl font-semibold text-white mb-4">
+                    <h3 className="text-2xl font-semibold text-white mb-6">
                         Core Principles
                     </h3>
                     
@@ -569,7 +569,7 @@ print(brackets_validation("[a{b]c}"))  # False`,
                     </h3>
 
                     <div className="space-y-8">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-6">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-xl font-bold text-purple-400 mb-4">Problem 1: Reversing a Queue</h4>
                             <p className="text-gray-300 mb-4">
                                 Design an algorithm to reverse a Queue using Stacks and Queues. 

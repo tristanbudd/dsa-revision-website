@@ -344,7 +344,7 @@ def height(node):
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-xl font-bold text-purple-300 mb-3">Double Rotations</h4>
                             
                             <div className="grid md:grid-cols-2 gap-4">
@@ -384,7 +384,7 @@ def height(node):
                                 </div>
                             </div>
 
-                            <div className="mt-4 bg-purple-900/30 border border-purple-600 rounded p-3">
+                            <div className="mt-4 bg-purple-900/30 border border-purple-700 rounded p-3">
                                 <p className="text-sm text-gray-300">
                                     <strong className="text-purple-300">Important:</strong> Double rotations are required when single rotations 
                                     cannot restore balance due to conflicting subtree orientations.

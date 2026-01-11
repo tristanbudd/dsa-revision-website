@@ -660,7 +660,7 @@ print(f"Theoretical max height for n nodes: O(log n)")`
                     </h3>
 
                     <div className="space-y-6">
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-semibold text-purple-300 mb-3">B* Tree Improvements</h4>
                             <p className="text-gray-300 mb-3">
                                 B* Trees improve upon B Trees by requiring nodes to be <strong>at least 2/3 full</strong> (instead of 1/2 full):
@@ -679,7 +679,7 @@ print(f"Theoretical max height for n nodes: O(log n)")`
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-semibold text-purple-300 mb-3">B** Trees and B^n Trees</h4>
                             <div className="space-y-3 text-gray-300">
                                 <div><strong>B** Tree:</strong> Requires nodes to be at least 3/4 (75%) full.</div>
@@ -871,7 +871,7 @@ print(f"Theoretical max height for n nodes: O(log n)")`
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Capacity Example: B+ Tree Order 200</h4>
                             <div className="space-y-3 text-gray-300">
                                 <div><strong>2-Level Tree:</strong> Can store ~9,900 records (100 leaves × 99 keys each).</div>

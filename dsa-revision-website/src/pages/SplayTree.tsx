@@ -338,7 +338,7 @@ def zigzig_right(grandparent):
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-semibold text-purple-300 mb-3">ZigZag Rotation (Double Rotation)</h4>
                             <p className="text-gray-300 mb-3">
                                 Occurs when S and P are on <strong>opposite sides</strong> of their parents. Equivalent to AVL LR/RL rotations. 
@@ -503,7 +503,7 @@ def zigzig_right(grandparent):
                             </div>
                         </div>
 
-                        <div className="rounded-lg border border-purple-600 bg-purple-900/20 p-5">
+                        <div className="rounded-lg border border-purple-700 bg-purple-900/20 p-5">
                             <h4 className="text-lg font-bold text-purple-300 mb-3">Network Routing Tables</h4>
                             <p className="text-gray-300 mb-3">
                                 Network routing decisions often follow patterns where certain destinations are accessed more frequently. 
