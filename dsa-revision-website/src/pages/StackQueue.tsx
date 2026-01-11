@@ -212,7 +212,7 @@ print(brackets_validation("[a{b]c}"))  # False`,
                             </p>
 
                             <div className="bg-gray-900/60 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-blue-300 mb-2">Visual Representation:</h5>
+                                <h5 className="font-bold text-blue-300 mb-2">Visual Representation:</h5>
                                 <div className="p-4 bg-gray-800/50 rounded">
                                     <div className="flex md:hidden flex-col items-center gap-4 mx-auto w-fit">
                                         <div className="text-center">
@@ -332,7 +332,7 @@ print(brackets_validation("[a{b]c}"))  # False`,
                             </p>
 
                             <div className="bg-gray-900/60 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-green-300 mb-2">Visual Representation:</h5>
+                                <h5 className="font-bold text-green-300 mb-2">Visual Representation:</h5>
                                 <div className="p-4 bg-gray-800/50 rounded">
                                     <div className="flex md:hidden flex-col items-center gap-4 mx-auto w-fit">
                                         <div className="text-center">
@@ -588,7 +588,7 @@ print(brackets_validation("[a{b]c}"))  # False`,
                                 Examples: "abbccd" → "ad", "dsallasg" → "dg", "abccbadd" → "".
                             </p>
                             <div className="bg-gray-900/50 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-orange-300 mb-2">Algorithm Explanation:</h5>
+                                <h5 className="font-bold text-orange-300 mb-2">Algorithm Explanation:</h5>
                                 <ol className="text-sm text-gray-300 space-y-1 list-decimal list-inside">
                                     <li>Iterate through each character in the string.</li>
                                     <li>If the stack is not empty and the top element equals the current character, pop the stack (remove duplicate).</li>
@@ -610,7 +610,7 @@ print(brackets_validation("[a{b]c}"))  # False`,
                                 Examples: "(abc)" → True, "ds" → True, "[a&#123;b]c&#125;" → False.
                             </p>
                             <div className="bg-gray-900/50 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-cyan-300 mb-2">Algorithm Explanation:</h5>
+                                <h5 className="font-bold text-cyan-300 mb-2">Algorithm Explanation:</h5>
                                 <ol className="text-sm text-gray-300 space-y-1 list-decimal list-inside">
                                     <li>Create a mapping of closing brackets to their opening counterparts.</li>
                                     <li>Iterate through each character in the string.</li>
@@ -715,19 +715,19 @@ print(brackets_validation("[a{b]c}"))  # False`,
                                 <h4 className="text-lg font-semibold text-yellow-300 mb-3">Common Exam Problems</h4>
                                 <div className="grid md:grid-cols-2 gap-3">
                                     <div className="bg-gray-800/50 rounded p-3">
-                                        <strong className="text-yellow-300">Operation Tracing:</strong>
+                                        <strong className="font-bold text-yellow-300">Operation Tracing:</strong>
                                         <p className="text-sm text-gray-300 mt-1">Follow sequences of push/pop/enqueue/dequeue operations to determine final state.</p>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-3">
-                                        <strong className="text-yellow-300">Bracket Matching:</strong>
+                                        <strong className="font-bold text-yellow-300">Bracket Matching:</strong>
                                         <p className="text-sm text-gray-300 mt-1">Use stack to validate parentheses, brackets, and braces are properly paired and nested.</p>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-3">
-                                        <strong className="text-yellow-300">Queue Reversal:</strong>
+                                        <strong className="font-bold text-yellow-300">Queue Reversal:</strong>
                                         <p className="text-sm text-gray-300 mt-1">Use stack as auxiliary structure to reverse queue order (FIFO becomes LIFO then FIFO again).</p>
                                     </div>
                                     <div className="bg-gray-800/50 rounded p-3">
-                                        <strong className="text-yellow-300">Adjacent Duplicates:</strong>
+                                        <strong className="font-bold text-yellow-300">Adjacent Duplicates:</strong>
                                         <p className="text-sm text-gray-300 mt-1">Stack-based algorithm to remove consecutive matching characters until none remain.</p>
                                     </div>
                                 </div>

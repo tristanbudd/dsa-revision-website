@@ -75,7 +75,7 @@ function InfoBox({ children, type = 'note', title }: InfoBoxProps) {
     return (
         <div className={`my-6 rounded-lg border ${style.border} ${style.bg} p-4`}>
             <div className="flex items-start gap-3">
-                <div className={`${style.iconColor} flex-shrink-0 mt-0.5`}>
+                <div className={`${style.iconColor} shrink-0 mt-0.5`}>
                     {style.icon}
                 </div>
                 <div className="flex-1">

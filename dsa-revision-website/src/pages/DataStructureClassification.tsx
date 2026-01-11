@@ -99,7 +99,7 @@ function DataStructureClassification() {
                             </p>
 
                             <div className="bg-gray-900/60 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-blue-300 mb-2">Visual Representation:</h5>
+                                <h5 className="font-bold text-blue-300 mb-2">Visual Representation:</h5>
                                 <div className="flex items-center justify-center p-4 bg-gray-800/50 rounded overflow-x-auto">
                                     <div className="flex flex-col md:flex-row items-center gap-2">
                                         <div className="w-16 h-12 border-2 border-blue-400 rounded flex items-center justify-center text-blue-300 font-mono flex-shrink-0">A</div>
@@ -146,19 +146,19 @@ function DataStructureClassification() {
                             </p>
 
                             <div className="bg-gray-900/60 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-green-300 mb-2">Visual Representation:</h5>
+                                <h5 className="font-bold text-green-300 mb-2">Visual Representation:</h5>
                                 <div className="p-4 bg-gray-800/50 rounded overflow-x-auto">
-                                    <div className="flex flex-col items-center gap-3 min-w-[250px] mx-auto w-fit">
-                                        <div className="w-16 h-10 md:h-12 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-sm md:text-base flex-shrink-0">Root</div>
+                                    <div className="flex flex-col items-center gap-3 min-w-62.5 mx-auto w-fit">
+                                        <div className="w-16 h-10 md:h-12 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-sm md:text-base shrink-0">50</div>
                                         <div className="flex items-center gap-1">
                                             <span className="text-green-400 text-xl md:text-2xl">↙</span>
                                             <span className="text-green-400 text-xl md:text-2xl mx-3 md:mx-6">↓</span>
                                             <span className="text-green-400 text-xl md:text-2xl">↘</span>
                                         </div>
                                         <div className="flex items-center gap-4 md:gap-8">
-                                            <div className="w-12 h-8 md:w-14 md:h-10 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs md:text-sm flex-shrink-0">A</div>
-                                            <div className="w-12 h-8 md:w-14 md:h-10 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs md:text-sm flex-shrink-0">B</div>
-                                            <div className="w-12 h-8 md:w-14 md:h-10 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs md:text-sm flex-shrink-0">C</div>
+                                            <div className="w-12 h-8 md:w-14 md:h-10 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs md:text-sm shrink-0">30</div>
+                                            <div className="w-12 h-8 md:w-14 md:h-10 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs md:text-sm shrink-0">70</div>
+                                            <div className="w-12 h-8 md:w-14 md:h-10 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs md:text-sm shrink-0">80</div>
                                         </div>
                                         <div className="flex items-center justify-center">
                                             <div className="flex flex-col items-center">
@@ -167,8 +167,8 @@ function DataStructureClassification() {
                                                     <span className="text-green-400 text-sm md:text-base mx-2">↘</span>
                                                 </div>
                                                 <div className="flex gap-3 md:gap-4 mt-2">
-                                                    <div className="w-10 h-7 md:w-12 md:h-8 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs flex-shrink-0">D</div>
-                                                    <div className="w-10 h-7 md:w-12 md:h-8 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs flex-shrink-0">E</div>
+                                                    <div className="w-10 h-7 md:w-12 md:h-8 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs shrink-0">20</div>
+                                                    <div className="w-10 h-7 md:w-12 md:h-8 border-2 border-green-400 rounded flex items-center justify-center text-green-300 font-mono text-xs shrink-0">40</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -209,9 +209,9 @@ function DataStructureClassification() {
                             </p>
 
                             <div className="bg-gray-900/60 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-purple-300 mb-2">Visual Representation:</h5>
+                                <h5 className="font-bold text-purple-300 mb-2">Visual Representation:</h5>
                                 <div className="p-4 bg-gray-800/50 rounded overflow-x-auto">
-                                    <div className="relative w-full max-w-md h-40 md:h-48 min-w-[280px] mx-auto">
+                                    <div className="relative w-full max-w-md h-40 md:h-48 min-w-70 mx-auto">
                                         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-10 h-10 md:w-12 md:h-12 border-2 border-purple-400 rounded-full flex items-center justify-center text-purple-300 font-mono text-sm md:text-base bg-gray-800">A</div>
                                         <div className="absolute top-1/2 left-2 md:left-4 transform -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 border-2 border-purple-400 rounded-full flex items-center justify-center text-purple-300 font-mono text-sm md:text-base bg-gray-800">B</div>
                                         <div className="absolute top-1/2 right-2 md:right-4 transform -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 border-2 border-purple-400 rounded-full flex items-center justify-center text-purple-300 font-mono text-sm md:text-base bg-gray-800">C</div>
@@ -262,7 +262,7 @@ function DataStructureClassification() {
                             </p>
 
                             <div className="bg-gray-900/60 rounded-lg p-4 mb-4">
-                                <h5 className="text-sm font-semibold text-orange-300 mb-2">Visual Representation:</h5>
+                                <h5 className="font-bold text-orange-300 mb-2">Visual Representation:</h5>
                                 <div className="p-4 bg-gray-800/50 rounded overflow-x-auto">
                                     <div className="border-4 border-orange-400 rounded-full w-56 h-40 md:w-64 md:h-48 flex items-center justify-center flex-shrink-0 mx-auto">
                                         <div className="flex flex-wrap gap-2 md:gap-3 justify-center p-4">
@@ -304,9 +304,9 @@ function DataStructureClassification() {
                         <h4 className="text-lg font-semibold text-blue-300 mb-3">Choosing the Right Data Structure</h4>
                         <p className="text-gray-300 mb-3">The process involves:</p>
                         <ol className="list-decimal list-inside space-y-2 ml-2 text-gray-300">
-                            <li><strong>Analysing the problem</strong> - What are you trying to solve?</li>
-                            <li><strong>Determining basic operations needed</strong> - Insert, delete, search, traverse?</li>
-                            <li><strong>Selecting the appropriate data structure</strong> - Match operations to structure strengths</li>
+                            <li><strong>Analysing the problem</strong> - What are you trying to solve?.</li>
+                            <li><strong>Determining basic operations needed</strong> - Insert, delete, search, traverse?.</li>
+                            <li><strong>Selecting the appropriate data structure</strong> - Match operations to structure strengths.</li>
                         </ol>
                         <p className="mt-3 text-gray-300">
                             Choosing the <span className="text-green-400 font-semibold">right</span> data structure makes operations simple and efficient. 
@@ -434,7 +434,7 @@ function DataStructureClassification() {
                                 A <strong>Last-In First-Out (LIFO)</strong> structure where only the most recently inserted object can be removed.
                             </p>
                             <div className="mb-3">
-                                <p className="text-sm font-semibold text-gray-400 mb-2">Operations:</p>
+                                <p className="font-bold text-gray-400 mb-2">Operations:</p>
                                 <ul className="text-sm text-gray-300 space-y-1">
                                     <li>• <code className="bg-gray-700 px-1 rounded">push()</code> - Add element to top.</li>
                                     <li>• <code className="bg-gray-700 px-1 rounded">pop()</code> - Remove element from top.</li>
@@ -452,7 +452,7 @@ function DataStructureClassification() {
                                 A <strong>First-In First-Out (FIFO)</strong> structure where the longest-stored object is removed next.
                             </p>
                             <div className="mb-3">
-                                <p className="text-sm font-semibold text-gray-400 mb-2">Operations:</p>
+                                <p className="font-bold text-gray-400 mb-2">Operations:</p>
                                 <ul className="text-sm text-gray-300 space-y-1">
                                     <li>• <code className="bg-gray-700 px-1 rounded">enqueue()</code> - Add element to rear.</li>
                                     <li>• <code className="bg-gray-700 px-1 rounded">dequeue()</code> - Remove element from front.</li>
@@ -467,7 +467,7 @@ function DataStructureClassification() {
                 </div>
 
                 <div className="mt-12">
-                    <div className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 border border-blue-700 rounded-lg p-6">
+                    <div className="bg-linear-to-r from-blue-900/20 to-purple-900/20 border border-blue-700 rounded-lg p-6">
                         <h3 className="text-2xl font-semibold text-white mb-6">Key Takeaways</h3>
                         
                         <div className="space-y-6">

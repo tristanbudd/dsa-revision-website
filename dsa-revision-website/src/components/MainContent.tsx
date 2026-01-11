@@ -128,7 +128,7 @@ function MainContent({ sidebarOpen, activeTopic, showContent, setActiveTopic }: 
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5 transition-transform group-hover:-translate-x-0.5 flex-shrink-0 text-gray-500 group-hover:text-gray-300"
+                                className="h-5 w-5 transition-transform group-hover:-translate-x-0.5 shrink-0 text-gray-500 group-hover:text-gray-300"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -157,7 +157,7 @@ function MainContent({ sidebarOpen, activeTopic, showContent, setActiveTopic }: 
                             </div>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5 transition-transform group-hover:translate-x-0.5 flex-shrink-0 text-gray-500 group-hover:text-gray-300"
+                                className="h-5 w-5 transition-transform group-hover:translate-x-0.5 shrink-0 text-gray-500 group-hover:text-gray-300"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"

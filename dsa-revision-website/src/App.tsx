@@ -20,6 +20,7 @@ function App() {
 
     const handleTopicChange = (topic: string) => {
         setActiveTopic(topic);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         if (window.innerWidth < 768) {
             setSidebarOpen(false);
         }
