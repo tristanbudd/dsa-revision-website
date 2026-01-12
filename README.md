@@ -45,11 +45,20 @@ Below are examples showcasing different sections of the website:
     cd dsa-revision-website
     ```
 
-2. **Run the dev environment** using Vite & NPM:
+2. **Install Dependencies** using NPM:
+    ```
+    npm install
+    ```
+
+3. **Run the dev environment** using Vite:
     ```
     npm run dev
     ```
 
+4. **Open the page** using Web Browser: (Port may vary if taken)
+    ```
+    http://localhost:5173
+    ```
 ---
 
 ## Support
