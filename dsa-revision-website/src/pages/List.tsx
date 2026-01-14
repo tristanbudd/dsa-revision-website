@@ -670,19 +670,19 @@ def search_skiplist(head, item, highest_level):
                                     <h5 className="font-bold text-yellow-300 mb-2">Performance:</h5>
                                     <ul className="space-y-1 text-sm text-gray-300">
                                         <li className="flex gap-2">
-                                            <span className="text-green-400 mt-0.5 font-bold">•</span>
+                                            <span className="text-yellow-300 mt-0.5 font-bold">•</span>
                                             <span>Average case: O(log n).</span>
                                         </li>
                                         <li className="flex gap-2">
-                                            <span className="text-yellow-400 mt-0.5 font-bold">•</span>
+                                            <span className="text-yellow-300 mt-0.5 font-bold">•</span>
                                             <span>Worst case: O(n).</span>
                                         </li>
                                         <li className="flex gap-2">
-                                            <span className="text-green-400 mt-0.5 font-bold">•</span>
+                                            <span className="text-yellow-300 mt-0.5 font-bold">•</span>
                                             <span>Space complexity: O(n).</span>
                                         </li>
                                         <li className="flex gap-2">
-                                            <span className="text-blue-400 mt-0.5 font-bold">•</span>
+                                            <span className="text-yellow-300 mt-0.5 font-bold">•</span>
                                             <span>Probabilistic guarantees.</span>
                                         </li>
                                     </ul>
