@@ -272,8 +272,8 @@ for task in schedule:
                 </div>
 
                 <p className="text-gray-300 leading-relaxed">
-                    A <strong>Heap</strong> is a specialized <strong>complete binary tree</strong> that satisfies the heap property, making it ideal for implementing 
-                    <strong>priority queues</strong> and <strong>efficient sorting algorithms</strong>. In a max-heap, each parent node is greater than or equal to its children, 
+                    A <strong>Heap</strong> is a specialized <strong>complete binary tree</strong> that satisfies the heap property, making it ideal for implementing
+                    &nbsp;<strong>priority queues</strong> and <strong>efficient sorting algorithms</strong>. In a max-heap, each parent node is greater than or equal to its children, 
                     while in a min-heap, each parent is less than or equal to its children. Heaps provide <strong>O(log n) insertion and deletion</strong> operations 
                     and can be efficiently stored in arrays using simple indexing formulas. This page covers heap fundamentals, algorithms, array implementation, 
                     priority queue applications, and practical uses like HeapSort and job scheduling systems.
@@ -332,8 +332,8 @@ for task in schedule:
                         <div className="rounded-lg border border-red-600 bg-red-900/20 p-5">
                             <h4 className="text-lg font-bold text-red-300 mb-3">Performance Problem with Lists</h4>
                             <p className="text-gray-300 mb-3">
-                                Using a simple list for priority queues is inefficient because removing the highest priority element requires 
-                                <strong>sequential search through the entire list</strong>.
+                                Using a simple list for priority queues is inefficient because removing the highest priority element requires
+                                &nbsp;<strong>sequential search through the entire list</strong>.
                             </p>
                             <div className="bg-gray-800/50 rounded p-3 text-sm text-gray-300">
                                 <strong>Solution:</strong> Heap data structures provide O(log n) performance for both insertion and removal operations, 

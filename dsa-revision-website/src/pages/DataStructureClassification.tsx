@@ -328,8 +328,8 @@ function DataStructureClassification() {
                             <h4 className="text-2xl font-bold text-orange-400 mb-4">4. Set Structure</h4>
                             
                             <p className="text-gray-300 mb-4 leading-relaxed">
-                                A set is an <strong>unordered collection</strong> of <strong>unique elements</strong> with <strong>no defined relationships</strong> 
-                                between items. Elements have <strong>no predecessors or successors</strong> - they simply exist as members of the collection. 
+                                A set is an <strong>unordered collection</strong> of <strong>unique elements</strong> with <strong>no defined relationships</strong>
+                                &nbsp;between items. Elements have <strong>no predecessors or successors</strong> - they simply exist as members of the collection. 
                                 The primary concern is membership testing and mathematical set operations.
                             </p>
 

@@ -172,8 +172,8 @@ def delete_key(node, key):
                 </div>
 
                 <p className="text-gray-300 leading-relaxed">
-                    <strong>B Trees and B+ Trees</strong> are <strong>balanced multi-way search trees</strong> designed specifically for 
-                    <strong>external storage systems</strong> like databases and file systems. Unlike binary search trees that work well in main memory, 
+                    <strong>B Trees and B+ Trees</strong> are <strong>balanced multi-way search trees</strong> designed specifically for
+                    &nbsp;<strong>external storage systems</strong> like databases and file systems. Unlike binary search trees that work well in main memory, 
                     B Trees minimize disk accesses by storing multiple keys per node, making them ideal for large datasets that cannot fit entirely 
                     in memory. <strong>B+ Trees</strong> extend this concept by storing all data in leaf nodes and linking them sequentially, 
                     enabling both efficient random access and fast sequential scanning. This page covers B Tree fundamentals, algorithms, 

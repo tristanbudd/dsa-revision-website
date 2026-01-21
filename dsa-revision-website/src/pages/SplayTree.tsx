@@ -356,8 +356,8 @@ def zigzig_right(grandparent):
                         <div className="rounded-lg border border-orange-600 bg-orange-900/20 p-5">
                             <h4 className="text-lg font-semibold text-orange-300 mb-3">ZigZig Rotation (No AVL Equivalent)</h4>
                             <p className="text-gray-300 mb-3">
-                                Occurs when S and P are on the <strong>same side</strong> of their parents. This rotation is <strong>unique to splay trees</strong> 
-                                and does not reduce tree height, but maintains the self-organizing property.
+                                Occurs when S and P are on the <strong>same side</strong> of their parents. This rotation is <strong>unique to splay trees</strong>
+                                &nbsp;and does not reduce tree height, but maintains the self-organizing property.
                             </p>
                             <CodeBox examples={zigzigRotationExample} title="ZigZig Rotation Implementation" />
                             <div className="mt-3 p-3 bg-gray-800/50 rounded">

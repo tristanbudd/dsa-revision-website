@@ -320,8 +320,8 @@ def demonstrate_text_compression():
                 </div>
 
                 <p className="text-gray-300 leading-relaxed">
-                    <strong>Huffman Coding</strong> is a <strong>lossless data compression algorithm</strong> that uses <strong>variable-length codes</strong> 
-                    to represent characters based on their frequencies. Developed by David Huffman in 1952, this algorithm assigns shorter codes to 
+                    <strong>Huffman Coding</strong> is a <strong>lossless data compression algorithm</strong> that uses <strong>variable-length codes</strong>
+                    &nbsp;to represent characters based on their frequencies. Developed by David Huffman in 1952, this algorithm assigns shorter codes to 
                     more frequently occurring characters and longer codes to less frequent ones, achieving optimal compression for given symbol frequencies. 
                     Huffman coding uses a <strong>binary tree structure</strong> where leaf nodes represent characters and the path from root to leaf 
                     determines the character's binary code. This page covers data compression fundamentals, fixed vs variable-length coding, 
@@ -491,8 +491,8 @@ def demonstrate_text_compression():
                             <h4 className="text-lg font-bold text-green-300 mb-3">Historical Background</h4>
                             <p className="text-gray-300 mb-3">
                                 In 1951, MIT student David Huffman was given a choice between a final exam or a term paper on finding the most efficient binary code. 
-                                Initially struggling to prove optimality, Huffman discovered the idea of using a frequency-sorted binary tree built from 
-                                <strong>bottom-up</strong> rather than top-down. This breakthrough outdid his professor's Shannon-Fano coding method.
+                                Initially struggling to prove optimality, Huffman discovered the idea of using a frequency-sorted binary tree built from
+                                &nbsp;<strong>bottom-up</strong> rather than top-down. This breakthrough outdid his professor's Shannon-Fano coding method.
                             </p>
                             <div className="bg-gray-800/50 rounded p-3 text-sm text-gray-300">
                                 <strong>Key Insight:</strong> Building the tree from leaves to root (bottom-up) ensures optimal code length, 

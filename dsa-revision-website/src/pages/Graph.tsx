@@ -412,8 +412,8 @@ solver.display_solution(path)`,
                 </div>
 
                 <p className="text-gray-300 leading-relaxed">
-                    <strong>Graphs</strong> are <strong>versatile data structures</strong> consisting of nodes (vertices) where each node can have 
-                    <strong>many predecessors and many successors</strong>. Unlike linear or hierarchical structures, graphs can represent 
+                    <strong>Graphs</strong> are <strong>versatile data structures</strong> consisting of nodes (vertices) where each node can have
+                    &nbsp;<strong>many predecessors and many successors</strong>. Unlike linear or hierarchical structures, graphs can represent 
                     complex relationships and are used to model real-world problems like <strong>road maps, computer networks, social networks</strong>, 
                     and task scheduling. Graphs support two fundamental traversal algorithms: <strong>Depth-First Search (DFS)</strong> and
                     <strong> Breadth-First Search (BFS)</strong>, each with specific applications and performance characteristics. 

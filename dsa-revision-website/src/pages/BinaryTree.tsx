@@ -414,8 +414,8 @@ def breadth_first_traversal(root):
                             
                             <p className="text-gray-300 mb-4 leading-relaxed">
                                 Special classifications of binary trees based on their <strong>structural completeness</strong>. 
-                                <strong> Full trees</strong> have all internal nodes with exactly two children, while <strong>complete trees</strong> 
-                                are filled level by level from left to right, optimizing space utilization and enabling array-based implementations.
+                                <strong> Full trees</strong> have all internal nodes with exactly two children, while <strong>complete trees</strong>
+                                &nbsp;are filled level by level from left to right, optimizing space utilization and enabling array-based implementations.
                             </p>
 
                             <div className="grid md:grid-cols-2 gap-4">
@@ -702,8 +702,8 @@ def breadth_first_traversal(root):
                         <div className="rounded-lg border border-gray-700 bg-gray-800/50 p-6">
                             <h4 className="text-xl font-bold text-cyan-400 mb-3">Expression Trees</h4>
                             <p className="text-gray-300 mb-3">
-                                Binary trees naturally represent mathematical expressions where <strong>operators are internal nodes</strong> 
-                                and <strong>operands are leaf nodes</strong>.
+                                Binary trees naturally represent mathematical expressions where <strong>operators are internal nodes</strong>
+                                &nbsp;and <strong>operands are leaf nodes</strong>.
                             </p>
                             <div className="mb-3">
                                 <p className="text-sm text-gray-300 font-mono bg-gray-900/50 rounded p-2">

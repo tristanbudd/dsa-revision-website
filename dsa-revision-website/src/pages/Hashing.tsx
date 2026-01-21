@@ -266,10 +266,10 @@ class HashTableDoubleHashing:
 
                 <p className="text-gray-300 leading-relaxed">
                     <strong>Hashing</strong> is a powerful technique that provides <strong>constant-time O(1) average performance</strong> for search, 
-                    insertion, and deletion operations. Unlike binary search trees that require O(log n) comparisons, hash tables use 
-                    <strong>hash functions</strong> to directly map keys to array indices, enabling near-instantaneous data access. 
-                    However, <strong>collisions</strong> occur when different keys hash to the same index, requiring sophisticated 
-                    <strong>collision resolution strategies</strong>. This page covers hash function design, collision handling techniques, 
+                    insertion, and deletion operations. Unlike binary search trees that require O(log n) comparisons, hash tables use
+                    &nbsp;<strong>hash functions</strong> to directly map keys to array indices, enabling near-instantaneous data access. 
+                    However, <strong>collisions</strong> occur when different keys hash to the same index, requiring sophisticated
+                    &nbsp;<strong>collision resolution strategies</strong>. This page covers hash function design, collision handling techniques, 
                     performance analysis, and practical applications of hash tables in computer science.
                 </p>
 
